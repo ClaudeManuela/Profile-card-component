@@ -44,10 +44,14 @@ hr {
 .profile-pic {
     border-radius: 50%;
     border: 3px solid white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 .name  {
     color: hsl(229, 23%, 23%);
+    text-align: center;
 }
 
 .age {
