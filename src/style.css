@@ -97,25 +97,10 @@ color: hsl(229, 23%, 23%)
     left:-10px;
 }
 
+ @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
 
-@media (min-width: 375px) {
-	.background {
-		
-		background-position: top -500px right 500px,
-						 bottom -460px left 500px;
-		
-	}
-
-}
-
-@media (min-width: 1440px) {
-	
-	.background {
-		
-		background-position: top -900px right 700px,
-						 bottom -960px left 700px;
-		
-	}
-
-	
 }
