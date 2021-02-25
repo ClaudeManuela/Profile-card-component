@@ -97,11 +97,3 @@ color: hsl(229, 23%, 23%)
     left:-10px;
 }
 
-@media screen and (min-width: 1440px) {
-    .background-top {
-      background-position: calc(0% - 296px) calc(0% - 512px);
-    }
-    .background-bottom {
-      background-position: calc(100% - -240px) calc(100% - -437px);
-    }
-  }
