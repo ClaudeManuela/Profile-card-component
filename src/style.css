@@ -98,7 +98,7 @@ color: hsl(229, 23%, 23%)
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 375px) {
 	.background {
 		
 		background-position: top -500px right 500px,
