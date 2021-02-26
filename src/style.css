@@ -37,7 +37,7 @@ li{
     justify-content: center;
 }
 .bg-pattern-top {
-
+   
 }
 
 .bg-pattern-bottom {
@@ -59,24 +59,29 @@ li{
 .name  {
     color: hsl(229, 23%, 23%);
     font-weight: 700;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 .age {
     color:hsl(0, 0%, 59%);
     padding-left: 5px;
+    font-weight: 400;
 }
 
 .city {
     color: hsl(0, 0%, 59%);
-    margin-top:-10px;
+    margin-top:-20px;
+    font-size: 16px;
 }
 
 .Stats {
-display: flex;
-justify-content: space-around;
-margin-top: 20px;
-color: hsl(229, 23%, 23%);
-margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    color: hsl(229, 23%, 23%);
+    margin-left: 20px;
+    font-weight: 700;
 }
 
 .info {
@@ -107,4 +112,9 @@ margin-left: 20px;
     .background-bottom {
       background-position: calc(100% - -240px) calc(100% - -437px);
     }
+  }
+
+  .attribution {
+      color:white;
+      text-align: center;
   }
