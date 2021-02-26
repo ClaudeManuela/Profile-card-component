@@ -3,6 +3,7 @@ background-color:hsl(185, 75%, 39%);
 font-family: 'Kumbh Sans';
 font-size: 18px;
 margin: 0;
+overflow: hidden;
 }
 
 hr {
@@ -37,11 +38,19 @@ li{
     justify-content: center;
 }
 .bg-pattern-top {
-   
+    position: fixed;
+    top:-60%;
+    left:-20%;
+    background-repeat: no-repeat;
+    z-index: -1;
 }
 
 .bg-pattern-bottom {
-
+    position: fixed;
+    bottom: -66%;
+    right: -209px;
+    background-repeat: no-repeat;
+    z-index: -1;
 }
 
 .bg-pattern-card {
